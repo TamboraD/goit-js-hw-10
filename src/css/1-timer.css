@@ -1,0 +1,42 @@
+@import "flatpickr/dist/flatpickr.min.css";
+@import "izitoast/dist/css/iziToast.min.css";
+.timer {
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.input-start {
+    display: flex;
+        gap: 8px;
+}
+.input-item {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        width: 272px;
+            height: 40px;
+            border: 1px solid #928c8c;
+                transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.value {
+width: 55px;
+font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.label {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    text-transform: uppercase;
+}

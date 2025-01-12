@@ -1,0 +1,52 @@
+@import "izitoast/dist/css/iziToast.min.css";
+
+.form {
+    display: flex;
+        flex-direction: column;
+        gap: 15px;
+}
+.form-delay {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    height: auto;
+}
+.delay-input{
+    width: 360px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+}
+.fieldset {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    stroke-width: 1px;
+    stroke: #808080;
+    background-color: #fff;
+    transition: border 0.3s ease;
+}
+.btn {
+    border-radius: 8px;
+        width: 360px;
+        height: 40px;
+        background: #4e75ff;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+            border: none;
+}
+.btn:hover {
+    background: #6c8cff;
+}
